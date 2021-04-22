@@ -1,0 +1,26 @@
+.section--header {
+  margin: 0 auto;
+  padding-top: 30px;
+
+  background-image: url("../../images/headerBG.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (min-width: 1240px) {
+    height: 855px;
+    background-size: cover;
+  }
+}
+
+.section--body {
+  background-color: transparent;
+
+  margin-bottom: 150px;
+}
+
+.section--footer {
+  padding-top: 35px;
+  background-image: url("../../images/footerBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

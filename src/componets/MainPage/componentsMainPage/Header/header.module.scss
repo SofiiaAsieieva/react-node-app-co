@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+
+  &__text {
+    width: 590px;
+  }
+
+  &__logo {
+    margin: 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+  }
+
+  &__motto {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  &__about {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+  }
+
+  &__button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.44);
+    }
+  }
+
+  &__button-lint {
+    display: block;
+    padding: 27px 75px;
+    text-decoration: none;
+    color: #3a80ba;
+  }
+
+  &__image {
+    margin-top: 40px;
+    margin-right: 100px;
+  }
+};
